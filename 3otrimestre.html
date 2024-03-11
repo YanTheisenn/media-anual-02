@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Media anual - 2ª Edição</title>
+    <link rel="stylesheet" href="style2.css">
+    <title>Media 3 trimsetre</title>
 </head>
 <body>
     <nav>
-        <a href="https://github.com/YanTheisenn">GitHub</a>
-        <a href="3otrimestre.html">3º trimestre</a>
+        <a href="https://github.com/YanTheisenn" target="_blank">GitHub</a>
+        <a href="index.html" target="_self">Média anual</a>
     </nav>
     <div class="container">
         <section>
             <header>
-                <h1 id="resposta">Vamos calcular sua média anual!</h1>
+                <h1 id="resposta">Vamos calcular quanto falta para você passar!</h1>
             </header>
                 <p>Qual matéria?</p>
                     <select name="materia" id="materia" required>
@@ -44,15 +44,10 @@
                 <p>Média do segundo trimestre:</p>
                     <input type="number" name="media-segundo-trimestre" id="media-segundo-trimestre" min="0" max="10">
             </div>
-
-            <div id="media">
-                <p>Média do terceiro trimestre:</p>
-                    <input type="number" name="media-terceiro-trimestre" id="media-terceiro-trimestre" min="0" max="10">
-            </div>
-                <input id="botao" type="button" value="Calcular" onclick="calcular()">
+            <input id="botao" type="button" value="Calcular" onclick="calcule()">
         </section>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script2.js"></script>
 </body>
 </html>
